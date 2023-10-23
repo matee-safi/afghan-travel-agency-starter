@@ -8,11 +8,11 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.mjs
-    siteTitle: `Afghan Travel Agency`,
-    siteTitleAlt: `Afghan Travel Agency`,
-    siteHeadline: `Afghan Travel Agency`,
+    siteTitle: `Afghan Travel Agency | شرکت سیاحتی افغان`,
+    siteTitleAlt: `Afghan Travel Agency | شرکت سیاحتی افغان`,
+    siteHeadline: `Afghan Travel Agency | شرکت سیاحتی افغان`,
     siteUrl: `https://afghantravelagency.com`,
-    siteDescription: `Your travel guide in Afghanistan. We offer visa services for afghans willing to travel abroad. We also offer computer services for filling and submitting forms for visa applications, passport applications, and ID application froms.`,
+    siteDescription: `Your travel guide in Afghanistan. We offer visa services for Afghans willing to travel abroad. We also offer computer services for filling and submitting forms for visa, passport, and ID applications.`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
     author: `Matee Safi`,
@@ -27,9 +27,9 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Afghan Travel Agency | شرکت سیاحتی افغان`,
+        short_name: `ATA`,
+        siteDescription: `Your travel guide in Afghanistan. We offer visa services for Afghans willing to travel abroad. We also offer computer services for filling and submitting forms for visa, passport, and ID applications.`,
         start_url: `/`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website
